@@ -53,7 +53,7 @@ authors_short: Diana Chiang \emph{et al.}
 ---
 
 
-# Introduction
+# 1 | Introduction
 
 The growing integration  of image-based technologies across life sciences, environmental research, and other domains has intensified the need for interoperable, reproducible, and FAIR-compliant image analysis infrastructures. The ELIXIR BioHackathon Europe 2025 provided a collaborative environment to advance these goals within the Galaxy ecosystem [@extends:galaxy2024].
 
@@ -63,21 +63,21 @@ Previous projects at the ELIXIR BioHackathon Europe focused on community develop
 2. Introducing content-based reproducibility validation mechanisms.
 3. Streamlining tools and training materials for accessible bioimage analysis.
 
-To achieve these goals, the project involved participants with heterogeneous backgrounds from different institutions, including ELIXIR, Euro-BioImaging, and the ISCC Foundation, joining both on-site and online. The goals of the project were also closely aligned with the OSCARS-FIESTA (\url{https://oscars-project.eu/projects/fair-image-analysis-across-sciences}) and OSCARS-BIOCODES (\url{https://oscars-project.eu/projects/bio-codes-enhancing-ai-readiness-bioimaging-data-content-based-identifiers}) projects.
+To achieve these goals, the project involved participants with heterogeneous backgrounds from different institutions, including ELIXIR, Euro-BioImaging, and the ISCC Foundation, joining both on-site and online. The goals of the project were also closely aligned with the [OSCARS-FIESTA](https://oscars-project.eu/projects/fair-image-analysis-across-sciences) and [OSCARS-BIOCODES](https://oscars-project.eu/projects/bio-codes-enhancing-ai-readiness-bioimaging-data-content-based-identifiers) projects.
 
 By integrating ontology development with standard-based validation tools, the project contributed to a FAIR-aligned, cross-domain image analysis framework within Galaxy.
 
-# Implementation
+# 2 | Implementation
 
 Our work was structured into three coordinated work packages (WPs) as described below. WP1 focused on cross-domain discovery and interoperability (Section 2.1), WP2 on integrating content-based fingerprints to enhance reproducibility and AI-readiness (Section 2.2), and WP3 on streamlining bioimage analysis in general, by improving tools, training materials, and the usability thereof (Section 2.3).
 
-## WP1: Cross-domain Support Improvements
+## 2.1 | WP1: Cross-domain Support Improvements
 
-WP1 focused on semantic interoperability through improvements to the EDAM Bioimaging ontology. The EDAM Bioimaging ontology extends the core EDAM ontology [@citesAsRelated:Hiltemann2023] with terms specific to bioimage data and analysis. However, this ontology extension is still under development. In the future, it will enable fine-grained annotation of tools, workflows, and tutorials within our community for specific analysis tasks. The BioHackathon team proposed extensions to the EDAM Bioimaging ontology to better align with the image analysis tasks supported by Galaxy. Furthermore, we curated a specialized vocabulary that reflects both the latest EDAM Bioimaging version and our specific recommendations (Section 3.1), which was then used to annotate the image analysis tutorials on the Galaxy Training Network [@extends:Hiltemann2023]. This enhances the discoverability of the tutorials in the short term while ensuring seamless compatibility with evolving standards.
+WP1 focused on semantic interoperability through improvements to the EDAM Bioimaging ontology. The EDAM Bioimaging ontology extends the core EDAM ontology [@citesAsRelated:Ison2013] with terms specific to bioimage data and analysis. However, this ontology extension is still under development. In the future, it will enable fine-grained annotation of tools, workflows, and tutorials within our community for specific analysis tasks. The BioHackathon team proposed extensions to the EDAM Bioimaging ontology to better align with the image analysis tasks supported by Galaxy. Furthermore, we curated a specialized vocabulary that reflects both the latest EDAM Bioimaging version and our specific recommendations (Section 3.1), which was then used to annotate the image analysis tutorials on the Galaxy Training Network [@extends:Hiltemann2023]. This enhances the discoverability of the tutorials in the short term while ensuring seamless compatibility with evolving standards.
 
 Through this work package, semantic annotation became a central mechanism to enable cross-domain discovery, interoperability, and alignment with evolving community standards.
 
-# Citation Typing Ontology annotation
+# 2.2 | Citation Typing Ontology annotation
 
 You can use [CiTO](http://purl.org/spar/cito/2018-02-12) annotations, as explained in [this BioHackathon Europe 2021 write up](https://raw.githubusercontent.com/biohackrxiv/bhxiv-metadata/main/doc/elixir_biohackathon2021/paper.md) and [this CiTO Pilot](https://www.biomedcentral.com/collections/cito).
 Using this template, you can cite an article and indicate _why_ you cite that article, for instance DisGeNET-RDF [@citesAsAuthority:Queralt2016].

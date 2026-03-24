@@ -1,15 +1,36 @@
 ---
-title: 'BioHackEU23 report: Template for the very long title'
-title_short: 'BioHackEU23 #26: unknown chemical substances'
+title: 'Evolving FAIR Image Analysis in Galaxy for Cross-domain and AI-ready Applications'
+title_short: 'Evolving FAIR Image Analysis in Galaxy'
 tags:
-  - cheminformatics
-  - PubChem
-  - unknown chemical substances
+  - Imaging
+  - Image analysis
+  - Image processing
+  - Interdisciplinary
+  - Life sciences
+  - Galaxy
 authors:
-  - name: First Author
+  - name: Diana Chiang
     affiliation: 1
     role: Writing – original draft
-  - name: Last Author
+  - name: Pavankumar Videm
+    affiliation: 1
+    role: Writing – original draft
+  - name: David Lopez Tabernero
+    affiliation: 1
+    role: Writing – original draft
+  - name: Maarten Paul
+    affiliation: 1
+    role: Writing – original draft
+  - name: Alireza Heidari
+    affiliation: 1
+    role: Writing – original draft
+  - name: Martin Etzrodt
+    affiliation: 1
+    role: Writing – original draft
+  - name: Beatriz Serrano-Solano
+    affiliation: 1
+    role: Writing – original draft
+  - name: Leonid Kostrykin
     orcid: 0000-0000-0000-0000
     affiliation: 2
     role: Conceptualization, Writing – review & editing

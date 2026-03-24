@@ -21,7 +21,7 @@ authors:  # roles should match the terms from: https://credit.niso.org
     affiliation: 1
     role: Software
     orcid: 0000-0002-9541-3961
-  - name: Maarten Paul
+  - name: Maarten W. Paul
     affiliation: 2
     role: Software, Resources
   - name: Alireza Heidari
@@ -42,7 +42,7 @@ authors:  # roles should match the terms from: https://credit.niso.org
 affiliations:
   - name: Department of Computer Science, University of Freiburg, Freiburg, Germany
     index: 1
-  - name: Leiden Universiteit
+  - name: Leiden University
     index: 2
   - name: ISCC Foundation
     index: 3

@@ -57,6 +57,8 @@ authors_short: Diana Chiang \emph{et al.}
 
 The growing integration  of image-based technologies across life sciences, environmental research, and other domains has intensified the need for interoperable, reproducible, and FAIR-compliant image analysis infrastructures. The ELIXIR BioHackathon Europe 2025 provided a collaborative environment to advance these goals within the Galaxy ecosystem [@extends:galaxy2024].
 
+Previous projects at the ELIXIR BioHackathon Europe focused on community development and establishing conventions [@citesAsRelated:Kostrykin2024] or implementing FAIR workflows and training materials [@citesAsRelated:Kostrykin2025] for image analysis using Galaxy. Building on the achievements of the previous years, Project 9 at the ELIXIR BioHackathon Europe 2025 was entitled _"Evolving FAIR Image Analysis in Galaxy for Cross-domain and AI-ready Applications"_ and aimed to strengthen Galaxy's capabilities for bioimage analysis while enhancing cross-domain interoperability and reproducibility. The project addressed three major challenges:
+
 ## Meeting information
 
 If you want to submit a preprint to BioHackrXiv, first check if your meeting is registered. You can find a list

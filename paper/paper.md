@@ -99,7 +99,7 @@ Improving the integration between OMERO and Galaxy has been another building blo
 
 Moreover, we have now developed a Galaxy Lab for the image analysis community. Galaxy Labs provides a community-tailored landing page, offering users a consistent interface with curated tools, workflows, and training materials that can be deployed on any Galaxy server. A production deployment is now available on the [French Galaxy server](https://usegalaxy.fr) and will be deployed on other public servers in the future.
 
-Further work included substantial improvements to Galaxy tool integrations, tool implementations, and training materials. These contributions streamlined the interoperability of tools and platforms [e.g., the BioImage Archive; @citesAsRelated:Hartley2022], and the outcomes are described in Sections 3.3.3 and 3.3.4, respectively.
+Further work included substantial improvements to Galaxy tool integrations, tool implementations, and training materials. These contributions streamlined the interoperability of tools and platforms [e.g., the BioImage Archive, @citesAsRelated:Hartley2022], and the outcomes are described in Sections 3.3.3 and 3.3.4, respectively.
 
 Collectively, WP3 improved both the technical foundation and the user-facing experience for bioimage analysis in Galaxy.
 

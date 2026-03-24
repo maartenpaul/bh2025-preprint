@@ -162,6 +162,16 @@ Within the Galaxy Training Network, we developed a new introductory [tutorial](h
 
 The tutorial also guides users through handling proprietary microscopy formats via Bio-Formats [@usesMethodIn:Linkert2010], understanding OME-NGFF standards [e.g., @usesMethodIn:Moore2023], and leveraging the OMERO integration for institutional data access. Sections structured as hands-on walks guide users through practical exercises, including metadata inspection, image filtering, thresholding, and validation. To support informed methodological choices, the tutorial provides a logical decision tree to help users decide between classical computer vision workflows and AI-driven approaches. Finally, it includes a dedicated "pitfall guardrail" section highlighting common sources of error, such as JPEG compression artefacts, unintended RGB channel merging, and photobleaching effects, thereby promoting robust and reproducible image analysis practices from the outset.
 
+### 3.3.2 | OMERO File Source Plugin
+
+As part of WP3, we significantly enhanced the integration between OMERO and Galaxy by implementing a new OMERO file source plugin directly within Galaxy. This plugin enables hierarchical browsing of OMERO's native
+$$
+\text{Project} \rightarrow \text{Dataset} \rightarrow \text{Image}
+$$
+structure, allowing users to navigate their institutional image repositories in a structured and intuitive way. To ensure scalability, server-side pagination was introduced using HQL queries, enabling efficient browsing even for very large image collections. In addition, server-side search functionality allows users to filter projects, datasets, and images by name directly on the OMERO server, reducing data transfer overhead and improving responsiveness.
+
+The plugin also introduces a smart image download mechanism tailored to preserve data fidelity and maximise compatibility. Whenever possible, Galaxy attempts to retrieve the original imported image files, thereby preserving the native file format (with certain repository-specific limitations). If original files are not accessible, the system automatically exports multi-page TIFF files containing all Z-planes, ensuring complete volumetric data retrieval. The implementation gracefully handles restricted repositories—such as those that block direct access to original files—thereby enabling robust and FAIR-aligned interoperability between OMERO-based data management and Galaxy-based analysis workflows.
+
 # Citation Typing Ontology annotation
 
 You can use [CiTO](http://purl.org/spar/cito/2018-02-12) annotations, as explained in [this BioHackathon Europe 2021 write up](https://raw.githubusercontent.com/biohackrxiv/bhxiv-metadata/main/doc/elixir_biohackathon2021/paper.md) and [this CiTO Pilot](https://www.biomedcentral.com/collections/cito).

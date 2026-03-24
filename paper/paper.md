@@ -34,13 +34,13 @@ affiliations:
     index: 2
 date: 7 November 2025
 cito-bibliography: paper.bib
-event: BH23EU
+event: BH25EU
 biohackathon_name: "BioHackathon Europe 2025"
 biohackathon_url:   "https://biohackathon-europe.org/"
 biohackathon_location: "Berlin, Germany, 2025"
 group: Project 9
 # URL to project git repo --- should contain the actual paper.md:
-git_url: https://github.com/biohackrxiv/publication-template
+git_url: https://github.com/FAIR-imaging/bh2025-preprint
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
 authors_short: Diana Chiang \emph{et al.}

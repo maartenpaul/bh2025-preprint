@@ -8,26 +8,33 @@ tags:
   - Interdisciplinary
   - Life sciences
   - Galaxy
-authors:
+authors:  # roles should match the terms from: https://credit.niso.org
   - name: Diana Chiang
     affiliation: 1
-    role: Conceptualization, Writing – review & editing
+    role: Investigation, Resources, Writing – review & editing
   - name: Pavankumar Videm
     affiliation: 1
+    role: Software
   - name: David Lopez Tabernero
     affiliation: 1
+    role: Software
   - name: Maarten Paul
     affiliation: 2
+    role: Software
   - name: Alireza Heidari
     affiliation: 1
+    role: Software
   - name: Martin Etzrodt
     affiliation: 3
+    role: Software
   - name: Beatriz Serrano-Solano
     affiliation: 4
+    role: Conceptualization, Software, Data curation, Writing – review & editing
     orcid: 0000-0002-5862-6132
   - name: Leonid Kostrykin
     affiliation: 5
     orcid: 0000-0003-1323-3762
+    role: Conceptualization, Software, Data curation, Writing – original draft, Supervision
 affiliations:
   - name: Department of Computer Science, University of Freiburg, Freiburg, Germany
     index: 1

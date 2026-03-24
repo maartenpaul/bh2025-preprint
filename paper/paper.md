@@ -81,7 +81,7 @@ Through this work package, semantic annotation became a central mechanism to ena
 
 WP2 introduced content-based validation mechanisms by integrating the [International Standard Content Code (ISCC)](https://www.iso.org/standard/77899.html) into Galaxy. To support reproducibility, the ISCC-SUM tool suite was integrated into Galaxy. This generates content-based fingerprints to validate final or intermediate results by implementing the International Standard Content Code (ISCC). ISCC-SUM is file-type agnostic and not limited to bioimaging data; it can be extended to various heterogeneous data types, such as omics data. This content-based validation complements Galaxy's workflow provenance tracing, providing format-independent reproducibility assurance aligned with FAIR principles.
 
-Three Galaxy tools were implemented: ([BMCV/galaxy-image-analysis/pull/159](https://github.com/BMCV/galaxy-image-analysis/pull/159), [BMCV/galaxy-image-analysis/pull/162](https://github.com/BMCV/galaxy-image-analysis/pull/162))
+Three Galaxy tools were implemented: ([bmcv/galaxy-image-analysis/pull/159](https://github.com/BMCV/galaxy-image-analysis/pull/159), [bmcv/galaxy-image-analysis/pull/162](https://github.com/BMCV/galaxy-image-analysis/pull/162))
 
 1. A tool to compute ISCC codes for datasets.
 2. A tool to compare ISCC codes based on a configurable similarity threshold.
@@ -90,6 +90,18 @@ Three Galaxy tools were implemented: ([BMCV/galaxy-image-analysis/pull/159](http
 These tools can be used to incorporate reproducibility-assuring checks as workflow steps directly into analysis pipelines in Galaxy.
 
 The integration of the ISCC-SUM tool suite into Galaxy enhances the AI-readiness of the platform. In this context, ISCC codes have several advantages. One advantage is that ISCC codes enable deduplication and dataset cleaning, which is important for removing redundant training data to prevent bias from over-represented samples. Another advantage is that they allow grouping similar (or dissimilar) data. This can be used, for example, during model training, to select test sets that truly evaluate the generalization of the model. When using pre-trained models, this can also be used to determine whether the image data used in an analysis is too different from the training data (out-of-distribution data), and thus to decide whether a tool or model is appropriate for that image data. Moreover, ISCC codes can also be used to verify data integrity, thus generally enhancing the trustworthiness of analyses.
+
+## 2.3 | WP3: Streamlining BioImage Analysis in Galaxy
+
+WP3 represented the most extensive implementation effort and focused on improving usability, interoperability, and the overall toolset for bioimage analysis. The entry point for tutorials on image analysis in Galaxy is the _"Imaging"_ topic on the Galaxy Training Network (GTN) landing page. This section features a growing set of curated tutorials covering tasks such as image pre-processing, segmentation, and feature extraction. In addition,  it introduces advanced analyses such as tissue multiplexing, parameter optimization, and the integration of machine learning models. To streamline the onboarding of new users in the Galaxy ecosystem for image analysis, a major endeavor has been to create the tutorial _"Where to start with bioimage analysis in Galaxy"_, which now provides a fundamental overview of image data representations, data types, tools, and analysis possibilities within Galaxy, including identifying entry points with OMERO. The outcomes are described in Section 3.3.1.
+
+Improving the integration between OMERO and Galaxy has been another building block of this work package. Users with institutional OMERO instances can now transfer image data directly into Galaxy workflows. This reduces friction between image management and analysis, preservation of image metadata, and facilitates institutional adoption. Details on the outcomes are given in Section 3.3.2.
+
+Moreover, we have now developed a Galaxy Lab for the image analysis community. Galaxy Labs provides a community-tailored landing page, offering users a consistent interface with curated tools, workflows, and training materials that can be deployed on any Galaxy server. A production deployment is now available on the [French Galaxy server](https://usegalaxy.fr) and will be deployed on other public servers in the future.
+
+Further work included substantial improvements to Galaxy tool integrations, tool implementations, and training materials. These contributions streamlined the interoperability of tools and platforms (e.g., the BioImage Archive; \@citesAsRelated:Hartley2022), and the outcomes are described in Sections 3.3.3 and 3.3.4, respectively.
+
+Collectively, WP3 improved both the technical foundation and the user-facing experience for bioimage analysis in Galaxy.
 
 # Citation Typing Ontology annotation
 
